@@ -1,0 +1,20 @@
+html {
+  box-sizing: border-box;
+  background-color: #79756f;
+  line-height: 1.5;
+  font-family: "Bevan", cursive;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+h1 {
+  color: #fff;
+  font-family: "Bevan", bold;
+}
+
+ul li {
+  color: #fff;
+  background-color: #713837;
+}
