@@ -1,6 +1,6 @@
 html {
   box-sizing: border-box;
-  background-color: #79756f;
+  background-color: #dbd6cf;
   line-height: 1.5;
   font-family: "Bevan", cursive;
 }
@@ -12,9 +12,20 @@ html {
 h1 {
   color: #fff;
   font-family: "Bevan", bold;
+  text-align: center;
+}
+body {
+
 }
 
 ul li {
   color: #fff;
   background-color: #713837;
+  padding: .6em;
+  margin: .3em;
+  font-family: sans-serif;
+  width: 100px;
+  text-align: center;
+  border-radius: 10px;
+  display: inline;
 }
