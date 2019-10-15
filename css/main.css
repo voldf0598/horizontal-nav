@@ -1,8 +1,7 @@
 html {
   box-sizing: border-box;
   background-color: #dbd6cf;
-  line-height: 1.5;
-  font-family: "Bevan", cursive;
+  font-family: Bevan, cursive;
 }
 
 *, *::before, *::after {
@@ -11,14 +10,21 @@ html {
 
 h1 {
   color: #fff;
-  font-family: "Bevan", bold;
+  font-family: Bevan, bold;
   text-align: center;
+  line-height: 1.5;
 }
+
 body {
-
+  background-color: #79756f;
+  text-align: center;
+  border-top: 3px solid #595652;
+  border-bottom: 3px solid #595652;
+  display: block;
+  margin: .3em;
 }
 
-ul li {
+a {
   color: #fff;
   background-color: #713837;
   padding: .6em;
@@ -27,5 +33,14 @@ ul li {
   width: 100px;
   text-align: center;
   border-radius: 10px;
-  display: inline;
+  text-decoration: none;
+}
+
+ul li {
+  display: inline-block;
+  list-style-type: none;
+}
+
+a:hover {
+  background-color: #f33;
 }
