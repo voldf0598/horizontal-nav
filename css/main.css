@@ -10,7 +10,7 @@ html {
 
 h1 {
   color: #fff;
-  font-family: Bevan, bold;
+  font-family: Bevan;
   text-align: center;
   line-height: 1.5;
 }
@@ -21,7 +21,7 @@ body {
   border-top: 3px solid #595652;
   border-bottom: 3px solid #595652;
   display: block;
-  margin: .3em;
+  margin: 0;
 }
 
 a {
